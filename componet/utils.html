@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+	<title>测试一下框架</title>
+	<link rel="stylesheet" type="text/css" href="../common.css">
+	<link rel="stylesheet" type="text/css" href="../card.css">
+	<link rel="stylesheet" type="text/css" href="../media.css">
+	<link rel="stylesheet" type="text/css" href="../example.css">
+</head>
+<body>
+	<div class="page page-utils">
+		<div class="page-header">
+			Utils(工具类)
+		</div>
+		<div class="page-body">
+			<div class="table-title">text</div>
+			<table class="table text-left">
+				<tr>
+					<th>CSS Class</th>
+					<th>CSS Value</th>
+				</tr>
+				<tr>
+					<td>text-justify</td>
+					<td>
+						text-align: justify !important;
+					</td>
+				</tr>
+				<tr>
+					<td>text-nowrap</td>
+					<td>
+						white-space: nowrap !important;
+					</td>
+				</tr>
+				<tr>
+					<td>text-truncate</td>
+					<td>
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+					</td>
+				</tr>	
+				<tr>
+					<td>text-left</td>
+					<td>
+						text-align: left !important;
+					</td>
+				</tr>
+				<tr>
+					<td>text-right</td>
+					<td>
+						text-align: right !important;
+					</td>
+				</tr>	
+				<tr>
+					<td>text-center</td>
+					<td>
+						text-align: center !important;
+					</td>
+				</tr>
+			</table>
+			<div class="table-title">align-self</div>
+			<table class="table text-left">
+				<tr>
+					<th>CSS Class</th>
+					<th>CSS Value</th>
+				</tr>
+				<tr>
+					<td>align-self-auto</td>
+					<td>
+						-ms-flex-item-align: auto !important;
+  						align-self: auto !important;
+					</td>
+				</tr>
+				<tr>
+					<td>align-self-start</td>
+					<td>
+						-ms-flex-item-align: start !important;
+						align-self: flex-start !important;
+					</td>
+				</tr>
+				<tr>
+					<td>align-self-end</td>
+					<td>
+						-ms-flex-item-align: end !important;
+						align-self: flex-end !important;
+					</td>
+				</tr>	
+				<tr>
+					<td>align-self-center</td>
+					<td>
+						-ms-flex-item-align: center !important;
+  						align-self: center !important;
+					</td>
+				</tr>
+				<tr>
+					<td>align-self-baseline</td>
+					<td>
+						-ms-flex-item-align: baseline !important;
+						align-self: baseline !important;
+					</td>
+				</tr>	
+				<tr>
+					<td>align-self-stretch</td>
+					<td>
+						-ms-flex-item-align: stretch !important;
+						align-self: stretch !important;
+					</td>
+				</tr>
+			</table>
+			<div class="table-title">font-size</div>
+			<table class="table text-left">
+				<tr>
+					<th>CSS Class</th>
+					<th>CSS Value</th>
+				</tr>
+				<tr>
+					<td>h1</td>
+					<td>
+						font-size: 2.5rem;
+					</td>
+				</tr>
+				<tr>
+					<td>h2</td>
+					<td>
+						font-size: 2rem;
+					</td>
+				</tr>
+				<tr>
+					<td>h3</td>
+					<td>
+						font-size: 1.75rem;
+					</td>
+				</tr>
+				<tr>
+					<td>h4</td>
+					<td>
+						font-size: 1.5rem;
+					</td>
+				</tr>
+				<tr>
+					<td>h5</td>
+					<td>
+						font-size: 1.25rem;
+					</td>
+				</tr>
+				<tr>
+					<td>h6</td>
+					<td>
+						font-size: 1rem;
+					</td>
+				</tr>
+			</table>
+			<div class="table-title">margin</div>
+			<table class="table text-left">
+				<tr>
+					<th>CSS Class</th>
+					<th>CSS Value</th>
+				</tr>
+				<tr>
+					<td>m-0</td>
+					<td>
+						margin: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mx-0</td>
+					<td>
+						margin-left: 0!important;
+						margin-right: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>my-0</td>
+					<td>
+						margin-top: 0!important;
+						margin-bottom: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mt-0</td>
+					<td>
+						margin-top: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mr-0</td>
+					<td>
+						margin-right: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mb-0</td>
+					<td>
+						margin-bottom: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>ml-0</td>
+					<td>
+						margin-left: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>m-1</td>
+					<td>
+						margin: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mx-1</td>
+					<td>
+						margin-left: 0.25rem!important;
+						margin-right: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>my-1</td>
+					<td>
+						margin-top: 0.25rem!important;
+						margin-bottom: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mt-1</td>
+					<td>
+						margin-top: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mr-1</td>
+					<td>
+						margin-right: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mb-1</td>
+					<td>
+						margin-bottom: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>ml-1</td>
+					<td>
+						margin-left: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>m-2</td>
+					<td>
+						margin:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mx-2</td>
+					<td>
+						margin-left:0.5rem!important;
+						margin-right:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>my-2</td>
+					<td>
+						margin-top:0.5rem!important;
+						margin-bottom:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mt-2</td>
+					<td>
+						margin-top:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mr-2</td>
+					<td>
+						margin-right:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mb-2</td>
+					<td>
+						margin-bottom:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>ml-2</td>
+					<td>
+						margin-left:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>m-3</td>
+					<td>
+						margin:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mx-3</td>
+					<td>
+						margin-left:1rem!important;
+						margin-right:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>my-3</td>
+					<td>
+						margin-top:1rem!important;
+						margin-bottom:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mt-3</td>
+					<td>
+						margin-top:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mr-3</td>
+					<td>
+						margin-right:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mb-3</td>
+					<td>
+						margin-bottom:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>ml-3</td>
+					<td>
+						margin-left:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>m-4</td>
+					<td>
+						margin:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mx-4</td>
+					<td>
+						margin-left:1.5rem!important;
+						margin-right:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>my-4</td>
+					<td>
+						margin-top:1.5rem!important;
+						margin-bottom:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mt-4</td>
+					<td>
+						margin-top:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mr-4</td>
+					<td>
+						margin-right:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mb-4</td>
+					<td>
+						margin-bottom:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>ml-4</td>
+					<td>
+						margin-left:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>m-5</td>
+					<td>
+						margin:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mx-5</td>
+					<td>
+						margin-left:3rem!important;
+						margin-right:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>my-5</td>
+					<td>
+						margin-top:3rem!important;
+						margin-bottom:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mt-5</td>
+					<td>
+						margin-top:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mr-5</td>
+					<td>
+						margin-right:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>mb-5</td>
+					<td>
+						margin-bottom:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>ml-5</td>
+					<td>
+						margin-left:3rem!important;
+					</td>
+				</tr>
+			</table>
+			<div class="table-title mt-5">padding</div>
+			<table class="table text-left">
+				<tr>
+					<th>CSS Class</th>
+					<th>CSS Value</th>
+				</tr>
+				<tr>
+					<td>p-0</td>
+					<td>
+						padding: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>px-0</td>
+					<td>
+						padding-left: 0!important;
+						padding-right: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>py-0</td>
+					<td>
+						padding-top: 0!important;
+						padding-bottom: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pt-0</td>
+					<td>
+						padding-top: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pr-0</td>
+					<td>
+						padding-right: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pb-0</td>
+					<td>
+						padding-bottom: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pl-0</td>
+					<td>
+						padding-left: 0!important;
+					</td>
+				</tr>
+				<tr>
+					<td>p-1</td>
+					<td>
+						padding: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>px-1</td>
+					<td>
+						padding-left: 0.25rem!important;
+						padding-right: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>py-1</td>
+					<td>
+						padding-top: 0.25rem!important;
+						padding-bottom: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pt-1</td>
+					<td>
+						padding-top: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pr-1</td>
+					<td>
+						padding-right: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pb-1</td>
+					<td>
+						padding-bottom: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pl-1</td>
+					<td>
+						padding-left: 0.25rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>p-2</td>
+					<td>
+						padding:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>px-2</td>
+					<td>
+						padding-left:0.5rem!important;
+						padding-right:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>py-2</td>
+					<td>
+						padding-top:0.5rem!important;
+						padding-bottom:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pt-2</td>
+					<td>
+						padding-top:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pr-2</td>
+					<td>
+						padding-right:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pb-2</td>
+					<td>
+						padding-bottom:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pl-2</td>
+					<td>
+						padding-left:0.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>p-3</td>
+					<td>
+						padding:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>px-3</td>
+					<td>
+						padding-left:1rem!important;
+						padding-right:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>py-3</td>
+					<td>
+						padding-top:1rem!important;
+						padding-bottom:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pt-3</td>
+					<td>
+						padding-top:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pr-3</td>
+					<td>
+						padding-right:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pb-3</td>
+					<td>
+						padding-bottom:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pl-3</td>
+					<td>
+						padding-left:1rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>p-4</td>
+					<td>
+						padding:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>px-4</td>
+					<td>
+						padding-left:1.5rem!important;
+						padding-right:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>py-4</td>
+					<td>
+						padding-top:1.5rem!important;
+						padding-bottom:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pt-4</td>
+					<td>
+						padding-top:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pr-4</td>
+					<td>
+						padding-right:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pb-4</td>
+					<td>
+						padding-bottom:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pl-4</td>
+					<td>
+						padding-left:1.5rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>p-5</td>
+					<td>
+						padding:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>px-5</td>
+					<td>
+						padding-left:3rem!important;
+						padding-right:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>py-5</td>
+					<td>
+						padding-top:3rem!important;
+						padding-bottom:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pt-5</td>
+					<td>
+						padding-top:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pr-5</td>
+					<td>
+						padding-right:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pb-5</td>
+					<td>
+						padding-bottom:3rem!important;
+					</td>
+				</tr>
+				<tr>
+					<td>pl-5</td>
+					<td>
+						padding-left:3rem!important;
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

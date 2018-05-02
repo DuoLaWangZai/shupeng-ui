@@ -1,0 +1,33 @@
+body{
+	padding-bottom: 300px!important;
+	padding: 12px;
+	background-color: #f8f8f8;
+}
+.page{
+
+}
+.page-header{
+	font-size: 1.6rem;
+	padding:2rem 0 3rem 0;
+}
+.page-body{
+	padding:15px;
+	background-color: #fff;
+}
+.page-footer{
+
+}
+.page.tab{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.tab .page-body{
+	padding: 0;
+	background-color: transparent;
+}
+
+.table-title{
+	padding: 1rem 0;
+	font-weight: bold;
+}
